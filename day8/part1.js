@@ -23,18 +23,6 @@ for(let i=1; i<=file.length-2; i++){
 }
 visibleTreesRow *= 2
 visibleTrees += visibleTreesRow
-//console.log(visibleTrees);
-
-function cutMatrix(file){
-    ff = []
-    for(let i=1; i<=file.length-2; i++){
-        ff.push(file[i].splice(1, file.length-2))
-    }
-    return ff
-}
-
-//let subArray = cutMatrix(file)
-//console.log(subArray)
 
 for(let i =1; i<=file.length-2; i++){
     for(let j=1; j<=file[i].length-2; j++){
